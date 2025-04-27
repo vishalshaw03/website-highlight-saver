@@ -1,0 +1,49 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#highlight-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.highlight-item {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  padding-right: 30px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+#summarize-btn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#summarize-btn:hover {
+  background-color: #45a049;
+}
