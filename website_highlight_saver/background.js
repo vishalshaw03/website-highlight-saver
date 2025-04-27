@@ -1,5 +1,4 @@
 chrome.runtime.onMessage.addListener((message) => {
-  console.log({ message });
   if (message.type === 'SAVE_HIGHLIGHT') {
     chrome.storage.local.get({ highlights: [] }, (result) => {
       const updated = result.highlights;
